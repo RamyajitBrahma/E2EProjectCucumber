@@ -1,0 +1,7 @@
+14:31:29.285 [main] INFO  jqueryTestCases.jqHomeTestCases - Landed on jqUery home successfully
+14:31:29.496 [main] INFO  resources.baseOR - Draggable objectwas displayed
+14:31:29.638 [main] INFO  resources.baseOR - Droppable objectwas displayed
+14:31:29.685 [main] ERROR jqueryTestCases.jqHomeTestCases - Drag and Drop is successful
+16:52:27.373 [main] INFO  resources.baseOR - driver is initialised
+16:52:40.958 [main] INFO  resources.baseOR - jquery Home page headerwas displayed
+16:52:40.958 [main] INFO  jqueryTestCases.jqHomeTestCases - Landed on jqUery home successfully

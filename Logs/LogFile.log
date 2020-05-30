@@ -1,0 +1,3 @@
+16:52:41.245 [main] INFO  resources.baseOR - Draggable objectwas displayed
+16:52:41.404 [main] INFO  resources.baseOR - Droppable objectwas displayed
+16:52:41.466 [main] ERROR jqueryTestCases.jqHomeTestCases - Drag and Drop is successful

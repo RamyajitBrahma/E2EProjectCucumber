@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="jqsuite" duration-ms="21079" started-at="2020-05-24T10:58:43Z" finished-at="2020-05-24T10:59:04Z">
+    <groups>
+    </groups>
+    <test name="jqhomepage" duration-ms="21079" started-at="2020-05-24T10:58:43Z" finished-at="2020-05-24T10:59:04Z">
+      <class name="jqueryTestCases.jqHomeTestCases">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="OpenBrowser" is-config="true" duration-ms="16966" started-at="2020-05-24T10:58:43Z" finished-at="2020-05-24T10:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="DragDropTC1()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="DragDropTC1" duration-ms="346" started-at="2020-05-24T10:59:00Z" finished-at="2020-05-24T10:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragDropTC1 -->
+        <test-method status="PASS" signature="acceptLinkFuncTC2()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="acceptLinkFuncTC2" duration-ms="3385" started-at="2020-05-24T10:59:01Z" depends-on-methods="jqueryTestCases.jqHomeTestCases.DragDropTC1" finished-at="2020-05-24T10:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptLinkFuncTC2 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="CloseBrowser" is-config="true" duration-ms="329" started-at="2020-05-24T10:59:04Z" finished-at="2020-05-24T10:59:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- jqueryTestCases.jqHomeTestCases -->
+    </test> <!-- jqhomepage -->
+  </suite> <!-- jqsuite -->
+</testng-results>

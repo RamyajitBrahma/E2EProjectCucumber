@@ -1,0 +1,7 @@
+20:54:31.099 [main] INFO  resources.baseOR - driver is initialised
+20:54:53.574 [main] ERROR resources.baseOR - Featured Course Headerwas not found
+22:09:46.478 [TestNG-tests-1] INFO  resources.baseOR - driver is initialised
+22:09:46.478 [TestNG-tests-2] INFO  resources.baseOR - driver is initialised
+22:10:09.971 [TestNG-tests-1] INFO  resources.baseOR - SignIn Buttonwas displayed
+22:10:22.089 [TestNG-tests-2] ERROR resources.baseOR - Featured Course Headerwas not found
+22:10:23.034 [TestNG-tests-1] INFO  OneProject.E2EProject.LoginTC - Sign In Button clicked

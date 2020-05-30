@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [jqsuite]">
+  <listeners>
+    <listener class-name="testE2EProject.listenersE2E"/>
+  </listeners>
+  <test thread-count="5" name="jqhomepage(failed)">
+    <classes>
+      <class name="jqueryTestCases.jqHomeTestCases">
+        <methods>
+          <include name="DragDropTC1"/>
+          <include name="acceptLinkFuncTC2"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- jqueryTestCases.jqHomeTestCases -->
+    </classes>
+  </test> <!-- jqhomepage(failed) -->
+</suite> <!-- Failed suite [jqsuite] -->

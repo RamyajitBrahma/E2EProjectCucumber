@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jqsuite">
+<listeners>
+<listener class-name="testE2EProject.listenersE2E"></listener>
+</listeners>
+  <test thread-count="5" name="jqhomepage">
+    <classes>
+      <class name="jqueryTestCases.jqHomeTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

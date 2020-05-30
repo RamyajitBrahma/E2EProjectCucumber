@@ -1,0 +1,7 @@
+15:28:54.619 [TestNG-tests-1] INFO  resources.baseOR - SignIn Buttonwas displayed
+15:29:06.778 [TestNG-tests-1] INFO  testE2EProject.LoginTC - Sign In Button clicked
+15:29:08.052 [TestNG-tests-1] INFO  resources.baseOR - Email ID Boxwas displayed
+15:29:09.478 [TestNG-tests-2] ERROR resources.baseOR - Featured Course Headerwas not found
+15:29:13.772 [TestNG-tests-1] INFO  testE2EProject.LoginTC - Entered valid Email ID In Email ID Box
+15:37:04.447 [TestNG-tests-1] INFO  resources.baseOR - driver is initialised
+15:37:04.447 [TestNG-tests-2] INFO  resources.baseOR - driver is initialised

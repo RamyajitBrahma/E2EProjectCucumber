@@ -1,0 +1,6 @@
+18:28:07.712 [TestNG-tests-1] INFO  resources.baseOR - SignIn Buttonwas displayed
+18:28:21.984 [TestNG-tests-2] ERROR resources.baseOR - Featured Course Headerwas not found
+18:51:53.395 [TestNG-tests-2] INFO  resources.baseOR - driver is initialised
+18:51:53.395 [TestNG-tests-1] INFO  resources.baseOR - driver is initialised
+18:52:30.075 [TestNG-tests-1] INFO  resources.baseOR - SignIn Buttonwas displayed
+18:52:45.166 [TestNG-tests-2] ERROR resources.baseOR - Featured Course Headerwas not found

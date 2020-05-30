@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E2ESuite]" parallel="tests">
+  <listeners>
+    <listener class-name="testE2EProject.listenersE2E"/>
+  </listeners>
+  <test thread-count="5" name="E2ETestLogin(failed)" parallel="tests">
+    <classes>
+      <class name="testE2EProject.LoginTC">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testE2EProject.LoginTC -->
+    </classes>
+  </test> <!-- E2ETestLogin(failed) -->
+  <test thread-count="5" name="E2ETestUiVal(failed)" parallel="tests">
+    <classes>
+      <class name="testE2EProject.uiValidationHomePGTC">
+        <methods>
+          <include name="UIValidationTCHomePage"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testE2EProject.uiValidationHomePGTC -->
+    </classes>
+  </test> <!-- E2ETestUiVal(failed) -->
+</suite> <!-- Failed suite [E2ESuite] -->
