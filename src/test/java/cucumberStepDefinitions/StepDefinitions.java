@@ -100,6 +100,7 @@ public class StepDefinitions extends baseOR {
 		}
 		
 		loginPg.pswrd().sendKeys(password);
+		Thread.sleep(3000);
 		loginPg.loginBtn().click();
     }
     

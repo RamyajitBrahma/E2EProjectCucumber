@@ -35,7 +35,7 @@ public class loginPage {
     }
     
     public WebElement loginBtn() {
-    	return pswrdEditBox;
+    	return loginButton;
     }
     
     public WebElement errormessage() {
