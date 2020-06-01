@@ -9,7 +9,7 @@ public class ExtentReportConfig {
 	public static ExtentReports extReportObj;
 	
 	public static ExtentReports extentReportOrg() {
-		String fileReportPath = System.getProperty("user.dir")+"\\reports\\Extreports\\index.html";
+		String fileReportPath = System.getProperty("user.dir")+"\\reports\\Extreports\\cucumberindex.html";
 		ExtentSparkReporter extrSparkReporterObj = new ExtentSparkReporter(fileReportPath);
 		extrSparkReporterObj.config().setReportName("E2E Porject Extent Report WEbResults");
 		extrSparkReporterObj.config().setDocumentTitle("E2E Extent Report");

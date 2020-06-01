@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="jqsuite" duration-ms="21079" started-at="2020-05-24T10:58:43Z" finished-at="2020-05-24T10:59:04Z">
+  <suite name="E2ESuite" duration-ms="52551" started-at="2020-05-31T14:49:30Z" finished-at="2020-05-31T14:50:22Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.testRunnerCucmber@1d8bd0de]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="jqhomepage" duration-ms="21079" started-at="2020-05-24T10:58:43Z" finished-at="2020-05-24T10:59:04Z">
-      <class name="jqueryTestCases.jqHomeTestCases">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="OpenBrowser" is-config="true" duration-ms="16966" started-at="2020-05-24T10:58:43Z" finished-at="2020-05-24T10:59:00Z">
+    <test name="E2ETestLoginCucmber" duration-ms="52551" started-at="2020-05-31T14:49:30Z" finished-at="2020-05-31T14:50:22Z">
+      <class name="cucumberRunner.testRunnerCucmber">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberRunner.testRunnerCucmber@1d8bd0de]" name="setUpClass" is-config="true" duration-ms="318" started-at="2020-05-31T14:49:30Z" finished-at="2020-05-31T14:49:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="DragDropTC1()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="DragDropTC1" duration-ms="346" started-at="2020-05-24T10:59:00Z" finished-at="2020-05-24T10:59:01Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.testRunnerCucmber@1d8bd0de]" name="feature" duration-ms="51960" started-at="2020-05-31T14:49:30Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-31T14:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login TC Login to the application]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DragDropTC1 -->
-        <test-method status="PASS" signature="acceptLinkFuncTC2()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="acceptLinkFuncTC2" duration-ms="3385" started-at="2020-05-24T10:59:01Z" depends-on-methods="jqueryTestCases.jqHomeTestCases.DragDropTC1" finished-at="2020-05-24T10:59:04Z">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberRunner.testRunnerCucmber@1d8bd0de]" name="tearDownClass" is-config="true" duration-ms="149" started-at="2020-05-31T14:50:22Z" finished-at="2020-05-31T14:50:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- acceptLinkFuncTC2 -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:jqueryTestCases.jqHomeTestCases@a1cdc6d]" name="CloseBrowser" is-config="true" duration-ms="329" started-at="2020-05-24T10:59:04Z" finished-at="2020-05-24T10:59:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- jqueryTestCases.jqHomeTestCases -->
-    </test> <!-- jqhomepage -->
-  </suite> <!-- jqsuite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunner.testRunnerCucmber -->
+    </test> <!-- E2ETestLoginCucmber -->
+  </suite> <!-- E2ESuite -->
 </testng-results>

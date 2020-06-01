@@ -23,6 +23,9 @@ public class loginPage {
     @FindBy(xpath="//input[@value='Log In']")
     private WebElement loginButton;
     
+    @FindBy(xpath="//div[@class='alert alert-danger']")
+    private WebElement errorMessage;
+    
     public WebElement emailIdBox() {
     	return emailIDEditBox;
     }
@@ -33,6 +36,10 @@ public class loginPage {
     
     public WebElement loginBtn() {
     	return pswrdEditBox;
+    }
+    
+    public WebElement errormessage() {
+    	return errorMessage;
     }
     
 }

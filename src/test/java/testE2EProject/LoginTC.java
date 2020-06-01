@@ -11,7 +11,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 import pageObjects.landingPage;
 import pageObjects.loginPage;
 import resources.baseOR;
@@ -70,6 +70,7 @@ public class LoginTC extends baseOR {
 			//System.out.println(driver.getTitle());
 			if(driver.getTitle().contains("Rahul Shetty Academy")) {
 				Assert.assertEquals(driver.getTitle(),"Rahul Shetty Academy");
+			
 				listenersE2E.ThreadSafeExtentReport.get().pass("Correct title was displayed");
 				log.info("Correct title was displayed");
 
