@@ -82,7 +82,7 @@
 					<version>3.0.0-M4</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>E2E2Cucmber.xml</suiteXmlFile>
+							<suiteXmlFile>jqquery.xml</suiteXmlFile>
 							
 						</suiteXmlFiles>
 					</configuration>
@@ -96,19 +96,20 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
-			<scope>test</scope>
+			
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
+
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>1.2.5</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
 <dependency>
