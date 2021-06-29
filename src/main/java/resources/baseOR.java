@@ -67,7 +67,7 @@ public class baseOR {
 			   chrmOptns.addArguments("headless");  //done for headless execution
 		   }
 
-			   driver = new ChromeDriver(chrmOptns); //done for headless execution - in this  part the chrmOptns is blank if it doesnt go inside the headless if condition hence it will open the browsers and wont run in headless mode		   
+			   driver = new ChromeDriver(chrmOptns); //done for normal/headless execution - in this  part the chrmOptns is blank if it doesnt go inside the headless if condition hence it will open the browsers and will run in normal(non healdess) mode		   
 	   }
 	   
 	   else if(browser.equalsIgnoreCase("IE")) {
